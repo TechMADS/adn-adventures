@@ -5,6 +5,7 @@ import { Moon, Sun, Globe, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from '@/contexts/ThemeContext';
 import { motion, AnimatePresence } from 'framer-motion';
+import path from 'path';
 
 export const Header = () => {
   const { t, i18n } = useTranslation();
@@ -31,7 +32,8 @@ export const Header = () => {
     { path: '/packages', label: t('nav.packages') },
     { path: '/gallery', label: t('nav.gallery') },
     { path: '/testimonials', label: t('nav.testimonials') },
-    { path: '/terms', label: t('nav.terms') },
+    // { path: '/terms', label: t('nav.terms') },
+    { path: '/contact', label: t('nav.contact') },
   ];
 
   return (

@@ -118,7 +118,7 @@ export const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <span className="text-sm text-muted-foreground">
-                  New Delhi, India
+                  Chennai, India
                 </span>
               </li>
             </ul>
@@ -146,11 +146,25 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center">
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} ADN Adventures. {t('footer.rights')}
-          </p>
+          <div className="space-y-3">
+            <p className="text-sm text-muted-foreground">
+              © {new Date().getFullYear()} ADN Adventures. {t('footer.rights')}
+            </p>
+            <p className="text-xs text-muted-foreground">
+              Designed and Developed by{' '}
+              <a
+                href="https://www.techgajana.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-[orange] hover:underline transition-colors"
+              >
+                TechGajana Digital Solutions
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
   );
 };
+ 

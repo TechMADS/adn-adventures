@@ -116,18 +116,18 @@ export const Packages = () => {
                   </div>
 
                   {/* Price and CTA */}
-                  <div className="flex items-center justify-between pt-4 border-t border-border">
-                    <div>
+                  <div className="flex items-center justify-center pt-4 border-t border-border">
+                    {/* <div>
                       <span className="text-sm text-muted-foreground block">
                         {t('packages.from')}
                       </span>
                       <p className="text-2xl font-bold text-primary">
                         ₹{pkg.price.toLocaleString()}
                       </p>
-                    </div>
+                    </div> */}
                     <Button
                       asChild
-                      className="bg-primary hover:bg-primary/90 text-primary-foreground"
+                      className="w-[80%] bg-primary hover:bg-primary/90 text-primary-foreground"
                     >
                       <Link to={`/packages/${pkg.id}`}>
                         {t('packages.viewDetails')}

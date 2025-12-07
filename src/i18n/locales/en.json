@@ -4,7 +4,8 @@
     "packages": "Packages",
     "gallery": "Gallery",
     "testimonials": "Testimonials",
-    "terms": "Terms & Conditions"
+    "terms": "Terms & Conditions",
+    "contact": "Contact Us"
   },
   "hero": {
     "title": "Discover the Magic of India",
@@ -40,7 +41,8 @@
     "message": "Special Requests (Optional)",
     "submit": "Submit Booking",
     "success": "Booking submitted successfully! We'll contact you soon.",
-    "error": "Failed to submit booking. Please try again."
+    "error": "Failed to submit booking. Please try again.",
+    "selectPackage": "Select a Package"
   },
   "gallery": {
     "title": "Gallery",
@@ -64,5 +66,15 @@
   "terms": {
     "title": "Terms, Conditions & Privacy Policy",
     "lastUpdated": "Last Updated"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "submit": "Send Message",
+    "success": "Message sent successfully! We'll get back to you soon.",
+    "error": "Failed to send message. Please try again."
   }
 }
