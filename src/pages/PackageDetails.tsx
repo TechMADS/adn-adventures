@@ -235,7 +235,7 @@ export const PackageDetails = () => {
               className="sticky top-24"
             >
               <div className="p-6 bg-card rounded-2xl shadow-lg border border-border">
-                <div className="mb-6">
+                {/* <div className="mb-6">
                   <span className="text-sm text-muted-foreground block mb-2">
                     {t('packages.from')}
                   </span>
@@ -243,7 +243,7 @@ export const PackageDetails = () => {
                     ₹{pkg.price.toLocaleString()}
                   </p>
                   <p className="text-sm text-muted-foreground mt-1">per person</p>
-                </div>
+                </div> */}
 
                 <div className="space-y-4 mb-6">
                   <div className="flex items-center text-sm">
