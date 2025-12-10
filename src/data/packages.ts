@@ -499,7 +499,7 @@ export const packages: Package[] = [
     price: 25000,
     duration: 5,
     category: 'spiritual',
-    image: '/Varanasi.jpg',
+    image: '/varanasi.jpg',
     gallery: [
       '/images/Varanasi1.jpg',
       '/images/Varanasi2.jpg',
