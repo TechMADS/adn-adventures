@@ -9,6 +9,7 @@ export interface Package {
   category: 'adventure' | 'cultural' | 'spiritual' | 'beach' | 'mountain' | 'nature';
   image: string;
   gallery: string[];
+  videos: string[];
   highlights: string[];
   highlightsHi: string[];
   itinerary: {
@@ -39,6 +40,9 @@ export const packages: Package[] = [
       '/images/kp1.jpg',
       '/images/kp2.jpg',
       '/images/kp3.jpg'
+    ],
+    videos: [
+      '/videos/kp1.mp4'
     ],
     highlights: [
       'Dal Lake Shikara Ride',
@@ -116,9 +120,12 @@ export const packages: Package[] = [
     category: 'cultural',
     image: 'https://images.unsplash.com/photo-1477587458883-47145ed94245',
     gallery: [
-      '/images/rr1.jpg',   
+      '/images/rr1.jpg',
       '/images/rr2.jpg',
       '/images/rr3.jpg'
+    ],
+    videos: [
+      '/videos/rr1.mp4'
     ],
     highlights: [
       'Amber Fort, Jaipur',
@@ -214,6 +221,9 @@ export const packages: Package[] = [
       '/images/kerala2.jpg',
       '/images/kerala3.jpg'
     ],
+    videos: [
+      '/videos/kerala1.mp4'
+    ],
     highlights: [
       'Houseboat stay in Alleppey',
       'Munnar tea estate visit',
@@ -301,8 +311,6 @@ export const packages: Package[] = [
       'साहसिक गतिविधियाँ'
     ]
   },
-
-
   {
     id: 'Manali',
     title: 'Manali Heaven',
@@ -317,6 +325,9 @@ export const packages: Package[] = [
       '/images/man1.jpg',
       '/images/man2.jpg',
       '/images/man3.jpg'
+    ],
+    videos: [
+      '/videos/man1.mp4'
     ],
     highlights: [
       'Solang Valley Adventure Sports',
@@ -413,6 +424,9 @@ export const packages: Package[] = [
       '/images/mun2.jpg',
       '/images/mun3.jpg'
     ],
+    videos: [
+      '/videos/mun1.mp4'
+    ],
     highlights: [
       'Visit tea plantations',
       'Waterfalls and nature walks',
@@ -499,6 +513,9 @@ export const packages: Package[] = [
       '/images/Varanasi1.jpg',
       '/images/Varanasi2.jpg',
       '/images/Varanasi3.jpg'
+    ],
+    videos: [
+      '/videos/var1.mp4'
     ],
     highlights: [
       'Sunrise boat ride on Ganges',
@@ -588,6 +605,9 @@ export const packages: Package[] = [
       '/images/wayanad2.jpg',
       '/images/wayanad3.jpg'
     ],
+    videos: [
+      '/videos/waya1.mp4'
+    ],
     highlights: [
       'Visit tea plantations',
       'Waterfalls and nature walks',
@@ -676,6 +696,9 @@ export const packages: Package[] = [
       '/images/trek2.jpg',
       '/images/trek3.jpg'
     ],
+    videos: [
+      '/videos/trek1.mp4'
+    ],
     highlights: [
       'Moderate to challenging treks',
       'Mountain village homestays',
@@ -761,6 +784,9 @@ export const packages: Package[] = [
       '/images/goa1.jpg',
       '/images/goa2.jpg',
       '/images/goa3.jpg'
+    ],
+    videos: [
+      '/videos/goa1.mp4'
     ],
     highlights: [
       'Beach hopping - Baga, Calangute, Anjuna',
@@ -856,6 +882,9 @@ export const packages: Package[] = [
       '/images/Coorg2.jpg',
       '/images/Coorg3.jpg'
     ],
+    videos: [
+      '/videos/coorg1.mp4'
+    ],
     highlights: [
       'Visit coffee plantations',
       'Waterfalls and nature walks',
@@ -945,6 +974,9 @@ export const packages: Package[] = [
       '/images/varkala2.jpg',
       '/images/varkala3.jpg'
     ],
+    videos: [
+      '/videos/varkala1.mp4'
+    ],
     highlights: [
       'Pristine beaches',
       'Ayurvedic spa treatments',
@@ -1033,8 +1065,10 @@ export const packages: Package[] = [
       '/images/pondicherry2.jpg',
       '/images/pondicherry3.jpg'
     ],
+    videos: [
+      '/videos/pondicherry1.mp4'
+    ],
     highlights: [
-
       'Pondicherry beaches',
       'French colonial architecture',
       'Auroville visit',
@@ -1128,6 +1162,9 @@ export const packages: Package[] = [
       '/images/gujarat2.jpg',
       '/images/gujarat3.jpg'
     ],
+    videos: [
+      '/videos/gujarat1.mp4'
+    ],
     highlights: [
       'Beach hopping - Baga, Calangute, Anjuna',
       'Water sports - parasailing, jet ski',
@@ -1214,6 +1251,9 @@ export const packages: Package[] = [
       '/images/manali2.jpg',
       '/images/manali3.jpg'
     ],
+    videos: [
+      '/videos/maharashtra1.mp4'
+    ],
     highlights: [
       'Visit to Trimbakeshwar Temple',
       'Exploration of Bhimashankar Temple',
@@ -1295,6 +1335,9 @@ export const packages: Package[] = [
       '/images/manali2.jpg',
       '/images/manali3.jpg'
     ],
+    videos: [
+      '/videos/madhya-pradesh1.mp4'
+    ],
     highlights: [
       'Visit to Khajuraho Temples',
       'Exploration of Mahakaleshwar Temple',
@@ -1371,6 +1414,9 @@ export const packages: Package[] = [
       '/images/Darjeeling1.jpg',
       '/images/Darjeeling2.jpg',
       '/images/Darjeeling3.jpg'
+    ],
+    videos: [
+      '/videos/Darjeeling1.mp4'
     ],
     highlights: [
       'Visit to Tiger Hill for sunrise',
@@ -1453,6 +1499,9 @@ export const packages: Package[] = [
       '/images/Ooty2.jpg',
       '/images/Ooty3.jpg'
     ],
+    videos: [
+      '/videos/Ooty1.mp4'
+    ],
     highlights: [
       'ooty Hill for sunrise',
       'Exploration of Botanical Gardens',
@@ -1533,6 +1582,9 @@ export const packages: Package[] = [
       '/images/Kodaikanal1.jpg',
       '/images/Kodaikanal2.jpg',
       '/images/Kodaikanal3.jpg'
+    ],
+    videos: [
+      '/videos/Kodaikanal1.mp4'
     ],
     highlights: [
       'Kodaikanal Lake for boating',

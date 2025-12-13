@@ -63,15 +63,38 @@ export const PackageDetails = () => {
           animate={{ opacity: 1, y: 0 }}
           className="relative h-[500px] rounded-2xl overflow-hidden mb-8 group"
         >
-          <img
+          <video
+            src={pkg.videos[currentImageIndex]}
+            autoPlay
+            loop
+            // muted
+            // controls
+            className={`absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 ${(
+              pkg.videos[currentImageIndex] == '/videos/rr1.mp4' ||
+              pkg.videos[currentImageIndex] == '/videos/man1.mp4' ||
+              pkg.videos[currentImageIndex] == '/videos/mun1.mp4' ||
+              pkg.videos[currentImageIndex] == '/videos/var1.mp4' ||
+              pkg.videos[currentImageIndex] == '/videos/waya1.mp4' ||
+              pkg.videos[currentImageIndex] == '/videos/trek1.mp4' ||
+              pkg.videos[currentImageIndex] == '/videos/goa1.mp4'
+            ) ? 'w-full' : '-rotate-90 w-[70%]'} h-auto object-contain`}
+          />
+
+          {/* <img
             src={pkg.gallery[currentImageIndex]}
             alt={`${i18n.language === 'en' ? pkg.title : pkg.titleHi} - ${currentImageIndex + 1}`}
             className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-          
+          /> */}
+
+          {/* Overlay Text */}
+          <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-t from-black/60 via-transparent to-transparent">
+            <h2 className="text-4xl md:text-5xl font-display font-bold text-white text-center px-4">
+              {i18n.language === 'en' ? pkg.title : pkg.titleHi}
+            </h2>
+          </div>
+
           {/* Carousel Controls */}
-          {pkg.gallery.length > 1 && (
+          {pkg.videos.length > 1 && (
             <>
               <button
                 onClick={prevImage}
@@ -87,18 +110,17 @@ export const PackageDetails = () => {
               >
                 <ChevronRight className="h-6 w-6" />
               </button>
-              
+
               {/* Image Indicators */}
               <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
-                {pkg.gallery.map((_, index) => (
+                {pkg.videos.map((_, index) => (
                   <button
                     key={index}
                     onClick={() => setCurrentImageIndex(index)}
-                    className={`w-2 h-2 rounded-full transition-all ${
-                      index === currentImageIndex
-                        ? 'bg-primary w-8'
-                        : 'bg-white/50 hover:bg-white/80'
-                    }`}
+                    className={`w-2 h-2 rounded-full transition-all ${index === currentImageIndex
+                      ? 'bg-primary w-8'
+                      : 'bg-white/50 hover:bg-white/80'
+                      }`}
                     aria-label={`Go to image ${index + 1}`}
                   />
                 ))}
