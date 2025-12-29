@@ -32,8 +32,8 @@ export const packages: Package[] = [
     titleHi: 'कश्मीर स्वर्ग',
     description: 'Experience the breathtaking beauty of Kashmir with snow-capped mountains, pristine lakes, and Mughal gardens',
     descriptionHi: 'बर्फ से ढके पहाड़ों, प्राचीन झीलों और मुगल उद्यानों के साथ कश्मीर की लुभावनी सुंदरता का अनुभव करें',
-    price: 45000,
-    duration: 7,
+    price: 4999,
+    duration: 4,
     category: 'mountain',
     image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4',
     gallery: [
@@ -49,14 +49,14 @@ export const packages: Package[] = [
       'Gulmarg Gondola Experience',
       'Mughal Gardens Tour',
       'Pahalgam Valley Visit',
-      'Authentic Kashmiri Cuisine'
+      'sonmarg Excursion'
     ],
     highlightsHi: [
       'डल झील शिकारा सवारी',
       'गुलमर्ग गोंडोला अनुभव',
       'मुगल गार्डन टूर',
       'पहलगाम घाटी यात्रा',
-      'प्रामाणिक कश्मीरी व्यंजन'
+      'सोनमर्ग भ्रमण'
     ],
     itinerary: [
       {
@@ -115,8 +115,8 @@ export const packages: Package[] = [
     titleHi: 'राजस्थान शाही विरासत',
     description: 'Discover the royal heritage of Rajasthan with magnificent forts, palaces, and desert landscapes',
     descriptionHi: 'शानदार किलों, महलों और रेगिस्तानी परिदृश्य के साथ राजस्थान की शाही विरासत की खोज करें',
-    price: 38000,
-    duration: 8,
+    price: 5555,
+    duration: 4,
     category: 'cultural',
     image: 'https://images.unsplash.com/photo-1477587458883-47145ed94245',
     gallery: [
@@ -212,8 +212,8 @@ export const packages: Package[] = [
     titleHi: 'केरल बैकवाटर आनंद',
     description: 'Cruise through serene backwaters, explore lush tea plantations, and relax on pristine beaches',
     descriptionHi: 'शांत बैकवाटर के माध्यम से यात्रा करें, हरे चाय बागानों का अन्वेषण करें, और प्राचीन समुद्र तटों पर आराम करें',
-    price: 35000,
-    duration: 6,
+    price: 4999,
+    duration: 4,
     category: 'beach',
     image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944',
     gallery: [
@@ -317,8 +317,8 @@ export const packages: Package[] = [
     titleHi: 'मणाली स्वर्ग',
     description: 'Experience the breathtaking beauty of Manali with snow-capped mountains, ancient lakes, and Mughal gardens',
     descriptionHi: 'बर्फ से ढके पहाड़ों, प्राचीन झीलों, और मुगल बागानों के साथ मणाली की सांस लेने वाली सुंदरता का अनुभव करें',
-    price: 45000,
-    duration: 8,
+    price: 4500,
+    duration: 3,
     category: 'mountain',
     image: '/manali.jpg',
     gallery: [
@@ -415,8 +415,8 @@ export const packages: Package[] = [
     titleHi: 'मुनार आनंद',
     description: 'Explore the lush tea plantations, waterfalls, and wildlife of Munnar, the Scotland of India',
     descriptionHi: 'मुनार के हरे-भरे चाय बागानों, झरनों, और वन्यजीवों का अन्वेषण करें, जो भारत का स्कॉटलैंड है',
-    price: 45000,
-    duration: 4,
+    price: 3900,
+    duration: 3,
     category: 'mountain',
     image: '/munnar.jpg',
     gallery: [
@@ -505,8 +505,8 @@ export const packages: Package[] = [
     titleHi: 'आध्यात्मिक वाराणसी और गंगा',
     description: 'Experience the spiritual heart of India with ancient temples, Ganga Aarti, and sacred rituals',
     descriptionHi: 'प्राचीन मंदिरों, गंगा आरती, और पवित्र अनुष्ठानों के साथ भारत के आध्यात्मिक हृदय का अनुभव करें',
-    price: 25000,
-    duration: 5,
+    price: 8999,
+    duration: 4,
     category: 'spiritual',
     image: '/varanasi.jpg',
     gallery: [
@@ -596,8 +596,8 @@ export const packages: Package[] = [
     titleHi: 'वायनाड नेचर एस्केप',
     description: 'Discover the serene beauty of Wayanad with its lush forests, waterfalls, and wildlife sanctuaries',
     descriptionHi: 'वायनाड के हरे-भरे जंगलों, झरनों, और वन्यजीव अभयारण्यों की शांति का अनुभव करें',
-    price: 45000,
-    duration: 4,
+    price: 3500,
+    duration: 2,
     category: 'adventure',
     image: '/wayanad.jpg',
     gallery: [
@@ -776,8 +776,8 @@ export const packages: Package[] = [
     titleHi: 'गोवा बीच पैराडाइज',
     description: 'Sun, sand, and sea - experience the vibrant beach life of Goa with water sports and nightlife',
     descriptionHi: 'सूरज, रेत और समुद्र - जल खेल और रात्रि जीवन के साथ गोवा के जीवंत समुद्र तट जीवन का अनुभव करें',
-    price: 28000,
-    duration: 5,
+    price: 3899,
+    duration: 3,
     category: 'beach',
     image: '/goa.jpg',
     gallery: [
@@ -873,8 +873,8 @@ export const packages: Package[] = [
     titleHi: 'कोर्ग कॉफी और प्रकृति',
     description: 'Explore the lush coffee plantations, waterfalls, and wildlife of Coorg, the Scotland of India',
     descriptionHi: 'कोर्ग के हरे-भरे कॉफी बागानों, झरनों, और वन्यजीवों का अन्वेषण करें, जो भारत का स्कॉटलैंड है',
-    price: 25000,
-    duration: 5,
+    price: 3499,
+    duration: 2,
     category: 'nature',
     image: '/Coorg.jpg',
     gallery: [
@@ -965,8 +965,8 @@ export const packages: Package[] = [
     titleHi: 'वर्कला बीच रिट्रीट',
     description: 'Relax on the pristine beaches of Varkala, enjoy Ayurvedic treatments and stunning cliff views',
     descriptionHi: 'वर्कला के प्राचीन समुद्र तटों पर आराम करें, आयुर्वेदिक उपचार और शानदार चट्टान के दृश्य का आनंद लें',
-    price: 30000,
-    duration: 7,
+    price: 3299,
+    duration: 2,
     category: 'beach',
     image: '/varkala.jpg',
     gallery: [
@@ -1056,8 +1056,8 @@ export const packages: Package[] = [
     titleHi: 'पांडिचेरी विरासत यात्रा',
     description: 'Explore the French colonial charm of Pondicherry with heritage walks, beaches, and vibrant culture',
     descriptionHi: 'फ्रेंच औपनिवेशिक आकर्षण का अन्वेषण करें पांडिचेरी के साथ विरासत यात्राएं, समुद्र तट, और जीवंत संस्कृति',
-    price: 28000,
-    duration: 5,
+    price: 5999,
+    duration: 3,
     category: 'beach',
     image: '/pondicherry.jpg',
     gallery: [
@@ -1153,8 +1153,8 @@ export const packages: Package[] = [
     titleHi: 'गुजरात सांस्कृतिक यात्रा',
     description: 'Explore the rich culture, heritage, and festivals of Gujarat with visits to historic sites and vibrant markets',
     descriptionHi: 'गुजरात की समृद्ध संस्कृति, विरासत और त्योहारों का अन्वेषण करें, ऐतिहासिक स्थलों और जीवंत बाजारों की यात्राओं के साथ',
-    price: 28000,
-    duration: 5,
+    price: 5999,
+    duration: 3,
     category: 'cultural',
     image: '/gujarat.jpg',
     gallery: [
@@ -1246,8 +1246,8 @@ export const packages: Package[] = [
     titleHi: 'महाराष्ट्र मंदिर यात्रा',
     description: 'Explore the ancient and sacred temples of Maharashtra, experiencing rich culture and spirituality',
     descriptionHi: 'महाराष्ट्र के प्राचीन और पवित्र मंदिरों का अन्वेषण करें, समृद्ध संस्कृति और आध्यात्मिकता का अनुभव करें',
-    price: 30000,
-    duration: 8,
+    price: 4999,
+    duration: 3,
     category: 'spiritual',
     image: '/maharashtra.jpg',
     gallery: [
@@ -1330,8 +1330,8 @@ export const packages: Package[] = [
     titleHi: 'मध्य प्रदेश मंदिर यात्रा',
     description: 'Explore the ancient and sacred temples of Madhya Pradesh, experiencing rich culture and spirituality',
     descriptionHi: 'मध्य प्रदेश के प्राचीन और पवित्र मंदिरों का अन्वेषण करें, समृद्ध संस्कृति और आध्यात्मिकता का अनुभव करें',
-    price: 30000,
-    duration: 8,
+    price: 4500,
+    duration: 3,
     category: 'spiritual',
     image: '/madhya-pradesh.jpg',
     gallery: [
@@ -1410,8 +1410,8 @@ export const packages: Package[] = [
     titleHi: 'दार्जिलिंग यात्रा',
     description: 'Explore the scenic beauty and cultural heritage of Darjeeling, experiencing its unique charm and tranquility',
     descriptionHi: 'दार्जिलिंग की सुरम्य सुंदरता और सांस्कृतिक विरासत का अन्वेषण करें, इसकी अनूठी आकर्षण और शांति का अनुभव करें',
-    price: 30000,
-    duration: 8,
+    price: 5555,
+    duration: 3,
     category: 'spiritual',
     image: '/Darjeeling.jpg',
     gallery: [
@@ -1494,8 +1494,8 @@ export const packages: Package[] = [
     titleHi: 'ऊटी यात्रा',
     description: 'Explore the scenic beauty and cultural heritage of Ooty, experiencing its unique charm and tranquility',
     descriptionHi: 'ऊटी की सुरम्य सुंदरता और सांस्कृतिक विरासत का अन्वेषण करें, इसकी अनूठी आकर्षण और शांति का अनुभव करें',
-    price: 30000,
-    duration: 8,
+    price: 3599,
+    duration: 3,
     category: 'mountain',
     image: '/Ooty.jpg',
     gallery: [
@@ -1578,8 +1578,8 @@ export const packages: Package[] = [
     titleHi: 'कोडाइकनाल यात्रा',
     description: 'kodaikanal is a beautiful hill station in Tamil Nadu, known for its scenic landscapes, pleasant climate, and serene environment. It is often referred to as the "Princess of Hill Stations" and is a popular destination for nature lovers and tourists seeking tranquility.',
     descriptionHi: 'कोडाइकनाल तमिलनाडु में एक सुंदर हिल स्टेशन है, जो अपने सुरम्य परिदृश्यों, सुखद जलवायु, और शांत वातावरण के लिए जाना जाता है। इसे अक्सर "हिल स्टेशनों की राजकुमारी" कहा जाता है और यह प्रकृति प्रेमियों और शांति की तलाश में पर्यटकों के लिए एक लोकप्रिय गंतव्य है।',
-    price: 30000,
-    duration: 8,
+    price: 3499,
+    duration: 3,
     category: 'mountain',
     image: '/kodaikanal.jpg',
     gallery: [
@@ -1654,7 +1654,152 @@ export const packages: Package[] = [
       'यात्रा बीमा'
     ]
   },
+  {
+    id: 'Delhi-Agra',
+    title: 'Delhi Agra Heritage Tour',
+    titleHi: 'दिल्ली आगरा विरासत यात्रा',
+    description: 'Explore the rich heritage of Delhi and Agra, visiting iconic monuments and experiencing vibrant culture',
+    descriptionHi: 'दिल्ली और आगरा की समृद्ध विरासत का अन्वेषण करें, प्रतिष्ठित स्मारकों की यात्रा करें और जीवंत संस्कृति का अनुभव करें',
+    price: 3399,
+    duration: 2,
+    category: 'cultural',
+    image: '/delhi1.jpg',
+    gallery: [
+      '/images/delhi1.jpg',
+      '/images/delhi2.jpg',
+      '/images/delhi3.jpg'
+    ],
+    videos: [
+      '/videos/delhi1.mp4'
+    ],
+    highlights: [
+      'Visit to Red Fort and Qutub Minar in Delhi',
+      'Exploration of India Gate and Humayun\'s Tomb',
+      'Tour of Taj Mahal and Agra Fort in Agra' 
+    ],
+    highlightsHi: [
+      'दिल्ली में लाल किला और कुतुब मीनार की यात्रा',
+      'इंडिया गेट और हुमायूँ का मकबरा का अन्वेषण',
+      'आगरा में ताज महल और आगरा किला की यात्रा'
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival in Delhi',
+        titleHi: 'दिल्ली में आगमन',
+        description: 'Arrive at Delhi, transfer to hotel, evening free for leisure',
+        descriptionHi: 'दिल्ली में पहुंचें, होटल में स्थानांतरण, शाम को आराम के लिए मुक्त'
+      },
+      {
+        day: 2,
+        title: 'Delhi Agra Heritage Tour',
+        titleHi: 'दिल्ली आगरा विरासत यात्रा',
+        description: 'Visit Red Fort, Qutub Minar, India Gate, Humayun\'s Tomb, Taj Mahal, and Agra Fort',
+        descriptionHi: 'लाल किला, कुतुब मीनार, इंडिया गेट, हुमायूँ का मकबरा, ताज महल, और आगरा किला की यात्रा करें'
+      },
+      {
+        day: 3,
+        title: 'Departure from Agra',
+        titleHi: 'आगरा से प्रस्थान',
+        description: 'Check out from hotel and transfer to airport or next destination',
+        descriptionHi: 'होटल से चेक आउट करें और हवाई अड्डे या अगले गंतव्य के लिए स्थानांतरण करें'
+      }
+    ],
+    included: [
+      'Hotel accommodation in Delhi and Agra',
+      'Daily breakfast and dinner',
+      'All transfers and sightseeing',
+      'Entrance fees to monuments',
+      'Professional tour guide'
+    ],
+    includedHi: [
+      'दिल्ली और आगरा में होटल आवास',
+      'दैनिक नाश्ता और रात का खाना',
+      'सभी स्थानांतरण और दर्शनीय स्थल',
+      'स्मारकों के प्रवेश शुल्क',
+      'पेशेवर टूर गाइड'
+    ],
+    excluded: [
+      'Flight tickets',
+      'Lunch and personal expenses',
+      'Adventure sports charges',
+      'Travel insurance'
+    ],
+    excludedHi: [
+      'हवाई टिकट',
+      'दोपहर का भोजन और व्यक्तिगत खर्च',
+      'साहसिक खेल शुल्क',
+      'यात्रा बीमा'
+    ]
+  },
+  {
 
-
-
-];
+    id: 'Aarupadai',
+    title: 'Aarupadai Veedu Tour',
+    titleHi: 'आरुपदाई वीडू यात्रा',
+    description: 'Explore the beautiful Aarupadai Veedu, a sacred place in Tamil Nadu',
+    descriptionHi: 'तमिलनाडु में एक पवित्र स्थान, आरुपदाई वीडू का अन्वेषण करें',
+    price: 2999,
+    duration: 2,
+    category: 'cultural',
+    image: '/aarupadai.jpg',
+    gallery: [
+      '/images/aarupadai1.jpg',
+      '/images/aarupadai2.jpg',
+      '/images/aarupadai3.jpg'
+    ],
+    videos: [
+      '/videos/aarupadai1.mp4'
+    ],
+    highlights: [
+      'Visit to Aarupadai Veedu temple',
+      'Exploration of the sacred site and surrounding area'
+    ],
+    highlightsHi: [
+      'आरुपदाई वीडू मंदिर की यात्रा',
+      'पवित्र स्थल और परिसर का अन्वेषण'
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival in Aarupadai Veedu',
+        titleHi: 'आरुपदाई वीडू में आगमन',
+        description: 'Arrive at Aarupadai Veedu, transfer to hotel, evening free for leisure',
+        descriptionHi: 'आरुपदाई वीडू में पहुंचें, होटल में स्थानांतरण, शाम को आराम के लिए मुक्त'
+      },
+      {
+        day: 2,
+        title: 'Aarupadai Veedu Tour',
+        titleHi: 'आरुपदाई वीडू यात्रा',
+        description: 'Visit the temple and explore the sacred site and surrounding area',
+        descriptionHi: 'मंदिर की यात्रा करें और पवित्र स्थल और परिसर का अन्वेषण करें'
+      }
+    ],
+    included: [
+      'Hotel accommodation in Aarupadai Veedu',
+      'Daily breakfast and dinner',
+      'All transfers and sightseeing',
+      'Entrance fees to attractions',
+      'Professional tour guide'
+    ],
+    includedHi: [
+      'आरुपदाई वीडू में होटल आवास',
+      'दैनिक नाश्ता और रात का खाना',
+      'सभी स्थानांतरण और दर्शनीय स्थल',
+      'आकर्षणों के प्रवेश शुल्क',
+      'पेशेवर टूर गाइड'
+    ],
+    excluded: [
+      'Flight tickets',
+      'Lunch and personal expenses',
+      'Adventure sports charges',
+      'Travel insurance'
+    ],
+    excludedHi: [
+      'हवाई टिकट',
+      'दोपहर का भोजन और व्यक्तिगत खर्च',
+      'साहसिक खेल शुल्क',
+      'यात्रा बीमा'
+    ]
+  }
+]
