@@ -6,6 +6,7 @@ export interface Package {
   descriptionHi: string;
   price: number;
   duration: number;
+  min:number;
   category: 'adventure' | 'cultural' | 'spiritual' | 'beach' | 'mountain' | 'nature';
   image: string;
   gallery: string[];
@@ -34,6 +35,7 @@ export const packages: Package[] = [
     descriptionHi: 'बर्फ से ढके पहाड़ों, प्राचीन झीलों और मुगल उद्यानों के साथ कश्मीर की लुभावनी सुंदरता का अनुभव करें',
     price: 4999,
     duration: 4,
+    min: 4,
     category: 'mountain',
     image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4',
     gallery: [
@@ -117,6 +119,7 @@ export const packages: Package[] = [
     descriptionHi: 'शानदार किलों, महलों और रेगिस्तानी परिदृश्य के साथ राजस्थान की शाही विरासत की खोज करें',
     price: 5555,
     duration: 4,
+    min: 4,
     category: 'cultural',
     image: 'https://images.unsplash.com/photo-1477587458883-47145ed94245',
     gallery: [
@@ -214,6 +217,7 @@ export const packages: Package[] = [
     descriptionHi: 'शांत बैकवाटर के माध्यम से यात्रा करें, हरे चाय बागानों का अन्वेषण करें, और प्राचीन समुद्र तटों पर आराम करें',
     price: 4999,
     duration: 4,
+    min: 4,
     category: 'beach',
     image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944',
     gallery: [
@@ -319,6 +323,7 @@ export const packages: Package[] = [
     descriptionHi: 'बर्फ से ढके पहाड़ों, प्राचीन झीलों, और मुगल बागानों के साथ मणाली की सांस लेने वाली सुंदरता का अनुभव करें',
     price: 4500,
     duration: 3,
+    min: 4,
     category: 'mountain',
     image: '/manali.jpg',
     gallery: [
@@ -417,6 +422,7 @@ export const packages: Package[] = [
     descriptionHi: 'मुनार के हरे-भरे चाय बागानों, झरनों, और वन्यजीवों का अन्वेषण करें, जो भारत का स्कॉटलैंड है',
     price: 3900,
     duration: 3,
+    min: 4,
     category: 'mountain',
     image: '/munnar.jpg',
     gallery: [
@@ -507,6 +513,7 @@ export const packages: Package[] = [
     descriptionHi: 'प्राचीन मंदिरों, गंगा आरती, और पवित्र अनुष्ठानों के साथ भारत के आध्यात्मिक हृदय का अनुभव करें',
     price: 8999,
     duration: 4,
+    min: 4,
     category: 'spiritual',
     image: '/varanasi.jpg',
     gallery: [
@@ -598,6 +605,7 @@ export const packages: Package[] = [
     descriptionHi: 'वायनाड के हरे-भरे जंगलों, झरनों, और वन्यजीव अभयारण्यों की शांति का अनुभव करें',
     price: 3500,
     duration: 2,
+    min: 4,
     category: 'adventure',
     image: '/wayanad.jpg',
     gallery: [
@@ -689,6 +697,7 @@ export const packages: Package[] = [
     descriptionHi: 'रोमांचक पर्वत ट्रेक के साथ खुद को चुनौती दें, स्थानीय हिमालयी संस्कृति का अनुभव करें',
     price: 42000,
     duration: 10,
+    min: 4,
     category: 'adventure',
     image: '/trek.jpg',
     gallery: [
@@ -776,8 +785,9 @@ export const packages: Package[] = [
     titleHi: 'गोवा बीच पैराडाइज',
     description: 'Sun, sand, and sea - experience the vibrant beach life of Goa with water sports and nightlife',
     descriptionHi: 'सूरज, रेत और समुद्र - जल खेल और रात्रि जीवन के साथ गोवा के जीवंत समुद्र तट जीवन का अनुभव करें',
-    price: 3899,
+    price: 4444,
     duration: 3,
+    min: 6,
     category: 'beach',
     image: '/goa.jpg',
     gallery: [
@@ -840,11 +850,11 @@ export const packages: Package[] = [
       }
     ],
     included: [
-      'Beachfront resort stay',
-      'Daily breakfast',
-      'Water sports package',
-      'River cruise',
-      'Scooter rental for 2 days'
+      '3 star resort stay',
+      'Breakfast and Dinner',
+      'One way Train Ticket (Mangalore to Goa)',
+      'Two wheeler or car',
+      'Package can be customizable'
     ],
     includedHi: [
       'समुद्र तट रिसॉर्ट प्रवास',
@@ -875,6 +885,7 @@ export const packages: Package[] = [
     descriptionHi: 'कोर्ग के हरे-भरे कॉफी बागानों, झरनों, और वन्यजीवों का अन्वेषण करें, जो भारत का स्कॉटलैंड है',
     price: 3499,
     duration: 2,
+    min: 4,
     category: 'nature',
     image: '/Coorg.jpg',
     gallery: [
@@ -967,6 +978,7 @@ export const packages: Package[] = [
     descriptionHi: 'वर्कला के प्राचीन समुद्र तटों पर आराम करें, आयुर्वेदिक उपचार और शानदार चट्टान के दृश्य का आनंद लें',
     price: 3299,
     duration: 2,
+    min: 4,
     category: 'beach',
     image: '/varkala.jpg',
     gallery: [
@@ -1058,6 +1070,7 @@ export const packages: Package[] = [
     descriptionHi: 'फ्रेंच औपनिवेशिक आकर्षण का अन्वेषण करें पांडिचेरी के साथ विरासत यात्राएं, समुद्र तट, और जीवंत संस्कृति',
     price: 5999,
     duration: 3,
+    min: 4,
     category: 'beach',
     image: '/pondicherry.jpg',
     gallery: [
@@ -1155,6 +1168,7 @@ export const packages: Package[] = [
     descriptionHi: 'गुजरात की समृद्ध संस्कृति, विरासत और त्योहारों का अन्वेषण करें, ऐतिहासिक स्थलों और जीवंत बाजारों की यात्राओं के साथ',
     price: 5999,
     duration: 3,
+    min: 4,
     category: 'cultural',
     image: '/gujarat.jpg',
     gallery: [
@@ -1248,6 +1262,7 @@ export const packages: Package[] = [
     descriptionHi: 'महाराष्ट्र के प्राचीन और पवित्र मंदिरों का अन्वेषण करें, समृद्ध संस्कृति और आध्यात्मिकता का अनुभव करें',
     price: 4999,
     duration: 3,
+    min: 4,
     category: 'spiritual',
     image: '/maharashtra.jpg',
     gallery: [
@@ -1332,6 +1347,7 @@ export const packages: Package[] = [
     descriptionHi: 'मध्य प्रदेश के प्राचीन और पवित्र मंदिरों का अन्वेषण करें, समृद्ध संस्कृति और आध्यात्मिकता का अनुभव करें',
     price: 4500,
     duration: 3,
+    min: 4,
     category: 'spiritual',
     image: '/madhya-pradesh.jpg',
     gallery: [
@@ -1412,6 +1428,7 @@ export const packages: Package[] = [
     descriptionHi: 'दार्जिलिंग की सुरम्य सुंदरता और सांस्कृतिक विरासत का अन्वेषण करें, इसकी अनूठी आकर्षण और शांति का अनुभव करें',
     price: 5555,
     duration: 3,
+    min: 4,
     category: 'spiritual',
     image: '/Darjeeling.jpg',
     gallery: [
@@ -1496,6 +1513,7 @@ export const packages: Package[] = [
     descriptionHi: 'ऊटी की सुरम्य सुंदरता और सांस्कृतिक विरासत का अन्वेषण करें, इसकी अनूठी आकर्षण और शांति का अनुभव करें',
     price: 3599,
     duration: 3,
+    min: 4,
     category: 'mountain',
     image: '/Ooty.jpg',
     gallery: [
@@ -1580,6 +1598,7 @@ export const packages: Package[] = [
     descriptionHi: 'कोडाइकनाल तमिलनाडु में एक सुंदर हिल स्टेशन है, जो अपने सुरम्य परिदृश्यों, सुखद जलवायु, और शांत वातावरण के लिए जाना जाता है। इसे अक्सर "हिल स्टेशनों की राजकुमारी" कहा जाता है और यह प्रकृति प्रेमियों और शांति की तलाश में पर्यटकों के लिए एक लोकप्रिय गंतव्य है।',
     price: 3499,
     duration: 3,
+    min: 4,
     category: 'mountain',
     image: '/kodaikanal.jpg',
     gallery: [
@@ -1662,6 +1681,7 @@ export const packages: Package[] = [
     descriptionHi: 'दिल्ली और आगरा की समृद्ध विरासत का अन्वेषण करें, प्रतिष्ठित स्मारकों की यात्रा करें और जीवंत संस्कृति का अनुभव करें',
     price: 3399,
     duration: 2,
+    min: 4,
     category: 'cultural',
     image: '/delhi1.jpg',
     gallery: [
@@ -1741,6 +1761,7 @@ export const packages: Package[] = [
     descriptionHi: 'तमिलनाडु में एक पवित्र स्थान, आरुपदाई वीडू का अन्वेषण करें',
     price: 4999,
     duration: 5,
+    min: 4,
     category: 'spiritual',
     image: '/aarupadai.jpg',
     gallery: [

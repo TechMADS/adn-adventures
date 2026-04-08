@@ -127,7 +127,7 @@ export const Footer = () => {
                   href="tel:+918248468334"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
-                  +91 82484 68334
+                  +91 80985 94364
                 </a>
               </li>
               <li className="flex items-start space-x-3">
