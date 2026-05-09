@@ -12,19 +12,30 @@ export default function ContactUs() {
     const { toast } = useToast();
     const [isSubmitting, setIsSubmitting] = useState(false);
 
+    const [formData, setFormData] = useState({
+        package: '',
+        name: '',
+        email: '',
+        phone: '',
+        date: '',
+        guests: '',
+        message: ''
+    });
+
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         setIsSubmitting(true);
 
-        // Simulate form submission
-        setTimeout(() => {
-            toast({
-                title: "Booking Submitted!",
-                description: t('booking.success'),
-            });
-            setIsSubmitting(false);
-            // onClose();
-        }, 1500);
+        const message = `Enquiry:\nPackage: ${formData.package}\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nDate: ${formData.date}\nGuests: ${formData.guests}\nMessage: ${formData.message}`;
+        const whatsappNumber = '+918098594364'; // Replace with actual WhatsApp number
+        const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+        window.open(whatsappUrl, '_blank');
+
+        toast({
+            title: "Enquiry Sent!",
+            description: "Your enquiry has been sent via WhatsApp.",
+        });
+        setIsSubmitting(false);
     };
 
 
