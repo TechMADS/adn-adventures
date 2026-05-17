@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 export const Gallery = () => {
   const { t } = useTranslation();
 
-  const images = Array.from({ length: 14 }, (_, i) => `/gallery/${i + 1}.jpg`);
+  const images = Array.from({ length: 23 }, (_, i) => `/gallery/${i + 1}.jpg`);
   const videos = Array.from({ length: 2 }, (_, i) => `/gallery/${i + 15}.mp4`);
 
   return (
