@@ -5,7 +5,7 @@ import { Moon, Sun, Globe, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from '@/contexts/ThemeContext';
 import { motion, AnimatePresence } from 'framer-motion';
-import path from 'path';
+// import path from 'path';
 
 export const Header = () => {
   const { t, i18n } = useTranslation();
@@ -53,8 +53,8 @@ export const Header = () => {
               whileHover={{ scale: 1.05 }}
               className="flex items-center space-x-2 text-2xl font-display font-bold text-primary"
             >
-              <img src="/logo.webp" alt="ADN Adventures Logo" className="h-12 w-12 rounded-full" />
-              <h1>ADN <span className="text-foreground">Adventures</span></h1>
+              <img src="/adn logo.png" alt="ADN Adventures Logo" className="h-26 w-28" />
+              {/* <h1>ADN <span className="text-foreground">Adventures</span></h1> */}
             </motion.div>
           </Link>
 

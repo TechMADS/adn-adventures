@@ -450,58 +450,56 @@ export const packages: Package[] = [
     itinerary: [
       {
         day: 1,
-        title: 'Arrival in Munnar',
-        titleHi: 'मुनार में आगमन',
-        description: 'Transfer to hotel, evening nature walk',
-        descriptionHi: 'होटल में स्थानांतरण, शाम को प्रकृति की सैर'
+        title: 'Local Sightseeing ',
+        titleHi: 'स्थानीय दर्शनीय स्थल',
+        description: 'Full day local sightseeing in Munnar, visit tea plantations and waterfalls',
+        descriptionHi: 'मुनार में पूरे दिन की स्थानीय दर्शनीय स्थल यात्रा, चाय बागानों और झरनों की यात्रा करें'
       },
       {
         day: 2,
-        title: 'Munnar Sightseeing',
-        titleHi: 'मुनार दर्शनीय स्थल',
-        description: 'Visit tea plantations, waterfalls, and wildlife spots',
-        descriptionHi: 'चाय बागानों, झरनों, और वन्यजीव स्थलों की यात्रा करें'
+        title: 'Adventures & Nature Walks',
+        titleHi: 'साहसिक और प्रकृति की सैर',
+        description: 'Jeep safari in kolukumalai, periyakanal waterfalls, and nature walks in the Western Ghats',
+        descriptionHi: 'कोलुकुमलाई में जीप सफारी, पेरियाकनाल झरने, और पश्चिमी घाटों में प्रकृति की सैर'
       },
       {
         day: 3,
-        title: 'Local Culture & Trekking',
-        titleHi: 'स्थानीय संस्कृति और ट्रेकिंग',
-        description: 'Experience local Munnar cuisine and trek in the Western Ghats',
-        descriptionHi: 'स्थानीय मुनार व्यंजन का अनुभव करें और पश्चिमी घाटों में ट्रेकिंग करें'
-      },
-      {
-        day: 4,
-        title: 'Departure from Munnar',
-        titleHi: 'मुनार से प्रस्थान',
-        description: 'Check out from hotel and transfer to airport or next destination',
-        descriptionHi: 'होटल से चेक आउट करें और हवाई अड्डे या अगले गंतव्य के लिए स्थानांतरण करें'
+        title: 'Cultural & Scenic Spots',
+        titleHi: 'सांस्कृतिक और सुंदर स्थल',
+        description: 'Tea museum visit, Ripple waterfalls, Hanging bridge, Ponmudi Dam,',
+        descriptionHi: 'चाय संग्रहालय की यात्रा, रिपल झरने, हैंगिंग ब्रिज, पोनमुडी डैम'
       },
     ],
     included: [
-      'Hotel accommodation in Munnar',
+      'Deluxe hotel accommodation in Munnar',
       'Daily breakfast and dinner',
-      'All transfers and sightseeing',
-      'Local cuisine tasting',
-      'Professional tour guide'
+      'Dindugul to Dindugul Pickup and drop',
+      'Private Car/ Cab for Entire Trip',
+      'Daily sightseeing as per itinerary',
+      'Breakfast and Dinner ',
+      'Driver Allowance, Toll, Parking, Fuel Charges',
+      'All applicable taxes and service charges',
     ],
     includedHi: [
-      'मुनार में होटल आवास',
+      'मुनार में डेलक्स होटल आवास',
       'दैनिक नाश्ता और रात का खाना',
-      'सभी स्थानांतरण और दर्शनीय स्थल',
-      'स्थानीय व्यंजन चखना',
-      'पेशेवर टूर गाइड'
+      'दिंदुगुल से दिंदुगुल तक का पिकअप और ड्रॉप',
+      'निजी कार/कैब के लिए संपूर्ण यात्रा',
+      'पेशेवर टूर गाइड',
+      'दैनिक दर्शनीय स्थल',
+      'नाश्ता और रात का खाना',
+      'ड्राइवर की अनुमति, टॉल, पार्किंग, ईंधन शुल्क',
+      'सभी लागू करने योग्य कर और सेवा शुल्क'
     ],
     excluded: [
-      'Flight tickets',
+      'Entrance fees to monuments and parks',
       'Lunch and personal expenses',
-      'Adventure sports charges',
-      'Travel insurance'
+      'Any services not mentioned in the inclusions',
     ],
     excludedHi: [
-      'हवाई टिकट',
+      'स्मारकों और पार्कों में प्रवेश शुल्क',
       'दोपहर का भोजन और व्यक्तिगत खर्च',
-      'साहसिक खेल शुल्क',
-      'यात्रा बीमा'
+      'कोई भी सेवाएं जो समावेश में उल्लेख नहीं की गई हैं'
     ]
   },
 

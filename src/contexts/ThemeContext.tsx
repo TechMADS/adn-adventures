@@ -11,7 +11,7 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   const [theme, setTheme] = useState<Theme>(() =>
-  ('dark' as Theme) // Default to dark theme
+  ('light' as Theme) // Default to light theme
   );
 
   useEffect(() => {
