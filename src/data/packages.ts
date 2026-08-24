@@ -420,9 +420,9 @@ export const packages: Package[] = [
     titleHi: 'मुनार आनंद',
     description: 'Explore the lush tea plantations, waterfalls, and wildlife of Munnar, the Scotland of India',
     descriptionHi: 'मुनार के हरे-भरे चाय बागानों, झरनों, और वन्यजीवों का अन्वेषण करें, जो भारत का स्कॉटलैंड है',
-    price: 3900,
+    price: 3800,
     duration: 3,
-    min: 4,
+    min: 20,
     category: 'mountain',
     image: '/munnar.jpg',
     gallery: [

@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 export const Gallery = () => {
   const { t } = useTranslation();
 
-  const images = Array.from({ length: 23 }, (_, i) => `/gallery/${i + 1}.jpg`);
-  const videos = Array.from({ length: 2 }, (_, i) => `/gallery/${i + 15}.mp4`);
+  const images = Array.from({ length: 19 }, (_, i) => `/gallery/${i}.jpg`);
+  const videos = Array.from({ length: 2 }, (_, i) => `/gallery/${i}.mp4`);
 
   return (
     <div className="min-h-screen pt-24 pb-16">
